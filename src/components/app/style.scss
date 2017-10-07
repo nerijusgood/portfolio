@@ -1,0 +1,36 @@
+.app {
+	min-height: 100vh;
+	min-width: 100vw;
+	background-color: #252528;
+	background: linear-gradient(
+			135deg,
+			#363740 0%,
+			#252528 100%
+		);
+}
+
+.container {
+	position: relative;
+	max-width: 960px;
+	padding: 0 25px;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+.grid {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('../../assets/images/pattern.png');
+	background-repeat: repeat-y;
+	background-position: 50%;
+	z-index: 0;
+	opacity: 0.035;
+}
+
+main {
+	position: relative;
+	z-index: 2;
+}
