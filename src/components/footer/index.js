@@ -6,7 +6,7 @@ export default class Footer extends Component {
 	render() {
 		return (
 			<footer class={style.footer}>
-					<Link href="/">&copy; 2017 Nerijusgood</Link>
+				<Link href="/">&copy; 2017 Nerijusgood</Link>
 			</footer>
 		);
 	}

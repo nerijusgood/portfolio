@@ -1,9 +1,12 @@
+@import '../../style/variables';
+
+$minusHeight: $navbar + $footer;
 .home {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	box-sizing: border-box;
 	padding: 40px 20px;
-	min-height: calc(100vh - 140px);
+	min-height: calc(100vh - #{$minusHeight});
 	width: 100%;
 }

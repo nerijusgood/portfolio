@@ -1,9 +1,15 @@
 @import '../../style/variables';
 
 .footer {
-	position: fixed;
-	bottom: 0;
 	height: $footer;
-	font-weight: 600;
-	color: $color-white;
+	text-align: right;
+
+	a {
+		font-weight: 500;
+		font-size: (12em/16);
+		color: $color-white;
+		text-align: right;
+		text-decoration: none;
+		line-height: $footer;
+	}
 }

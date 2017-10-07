@@ -12,6 +12,7 @@ export default class Header extends Component {
 				</div>
 
 				<nav class={style.nav}>
+					<Link activeClassName={style.active} href="/">Front</Link>
 					<Link activeClassName={style.active} href="/hire">Hire</Link>
 					<Link activeClassName={style.active} href="/project/john">About</Link>
 				</nav>
